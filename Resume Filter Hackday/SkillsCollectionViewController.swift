@@ -21,6 +21,20 @@ class SkillsCollectionViewController: UIViewController {
 
         skillsCollectionView.delegate = self
         skillsCollectionView.dataSource = self
+        
+        setNavigationBar()
+    }
+    
+    private func setNavigationBar() {
+        navigationController?.navigationBar.backgroundColor = .white
+        
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        imageView.contentMode = .scaleAspectFit
+        
+        let image = UIImage(named: "logo")
+        imageView.image = image
+        
+        navigationItem.titleView = imageView
     }
     
     @IBAction func getResultsButtonPressed(_ sender: UIButton) {

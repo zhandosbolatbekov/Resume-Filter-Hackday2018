@@ -269,7 +269,7 @@
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="t3p-Vp-tBf">
                                 <rect key="frame" x="8" y="174" width="359" height="431"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.93999999999999995" green="0.93999999999999995" blue="0.93999999999999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QAv-g7-zsd">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -310,7 +310,7 @@
                                                 </view>
                                             </subviews>
                                         </view>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.93999999999999995" green="0.93999999999999995" blue="0.93999999999999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="E52-ae-59b" firstAttribute="top" secondItem="1QV-M3-8S1" secondAttribute="top" constant="8" id="Lx4-D2-eft"/>
                                             <constraint firstAttribute="bottom" secondItem="E52-ae-59b" secondAttribute="bottom" constant="8" id="PKT-RN-js7"/>
@@ -368,7 +368,7 @@
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.93999999999999995" green="0.93999999999999995" blue="0.93999999999999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="O9H-HZ-5FD" firstAttribute="top" secondItem="x1E-D8-Dp7" secondAttribute="bottom" constant="8" id="52k-XX-vba"/>
                             <constraint firstItem="Ko1-WB-yZc" firstAttribute="leading" secondItem="8Jx-mX-1P1" secondAttribute="leading" id="8T5-7S-wgy"/>
