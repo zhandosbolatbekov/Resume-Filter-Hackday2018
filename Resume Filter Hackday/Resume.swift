@@ -26,7 +26,9 @@ struct Resume {
     
     static func getAllResumes() -> [Resume] {
         let fileURLs = FileManager.getFileURLs()
-        return fileURLs.map { Resume(url: $0) }
+        return fileURLs
+            .map { Resume(url: $0) }
+            .filter { $0.url.lastPathComponent.hasSuffix(".pdf") }
     }
 }
 

@@ -25,22 +25,10 @@ class SkillsCollectionViewController: UIViewController {
         setNavigationBar()
     }
     
-    private func setNavigationBar() {
-        navigationController?.navigationBar.backgroundColor = .white
-        
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
-        imageView.contentMode = .scaleAspectFit
-        
-        let image = UIImage(named: "logo")
-        imageView.image = image
-        
-        navigationItem.titleView = imageView
-    }
-    
     @IBAction func getResultsButtonPressed(_ sender: UIButton) {
-        let resumeListVC = self.storyboard?.instantiateViewController(withIdentifier: "Resume List") as! ResumeListViewController
-        let resumeList = Resume.getAllResumes()
-        resumeListVC.resumeList = resumeList.filter { $0.contains(skills: chosens, combined: combined) }
+        let resumeListVC = self.storyboard?.instantiateViewController(withIdentifier: "Results List") as! ResultsViewController
+//        let resumeList = Resume.getAllResumes()
+//        resumeListVC.resumeList = resumeList.filter { $0.contains(skills: chosens, combined: combined) }
         self.navigationController?.pushViewController(resumeListVC, animated: true)
     }
 }
@@ -123,5 +111,19 @@ extension SkillsCollectionViewController: UICollectionViewDelegateFlowLayout, UI
         default:
             fatalError("INCORRECT SECTION INDEX")
         }
+    }
+}
+
+extension UIViewController {
+    func setNavigationBar() {
+        navigationController?.navigationBar.backgroundColor = .white
+        
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        imageView.contentMode = .scaleAspectFit
+        
+        let image = UIImage(named: "logo")
+        imageView.image = image
+        
+        navigationItem.titleView = imageView
     }
 }

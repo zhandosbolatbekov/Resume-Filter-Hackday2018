@@ -16,6 +16,8 @@
 		D7F8CF91219732420088A27C /* ToggleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CF90219732420088A27C /* ToggleCollectionViewCell.swift */; };
 		D7F8CF93219746680088A27C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CF92219746680088A27C /* Color.swift */; };
 		D7F8CF952197481F0088A27C /* SkillData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CF942197481F0088A27C /* SkillData.swift */; };
+		D7F8CF97219756040088A27C /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CF96219756040088A27C /* ResultsViewController.swift */; };
+		D7F8CF99219757ED0088A27C /* ResumeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CF98219757ED0088A27C /* ResumeTableViewCell.swift */; };
 		D7FBFD4621932366001B6209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBFD4521932366001B6209 /* AppDelegate.swift */; };
 		D7FBFD4B21932366001B6209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FBFD4921932366001B6209 /* Main.storyboard */; };
 		D7FBFD5021932369001B6209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FBFD4E21932369001B6209 /* LaunchScreen.storyboard */; };
@@ -36,6 +38,8 @@
 		D7F8CF90219732420088A27C /* ToggleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleCollectionViewCell.swift; sourceTree = "<group>"; };
 		D7F8CF92219746680088A27C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D7F8CF942197481F0088A27C /* SkillData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillData.swift; sourceTree = "<group>"; };
+		D7F8CF96219756040088A27C /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		D7F8CF98219757ED0088A27C /* ResumeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeTableViewCell.swift; sourceTree = "<group>"; };
 		D7FBFD4221932366001B6209 /* Resume Filter Hackday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resume Filter Hackday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FBFD4521932366001B6209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7FBFD4A21932366001B6209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				D7F8CF90219732420088A27C /* ToggleCollectionViewCell.swift */,
 				D7F8CF92219746680088A27C /* Color.swift */,
 				D7F8CF942197481F0088A27C /* SkillData.swift */,
+				D7F8CF96219756040088A27C /* ResultsViewController.swift */,
+				D7F8CF98219757ED0088A27C /* ResumeTableViewCell.swift */,
 			);
 			path = "Resume Filter Hackday";
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 			files = (
 				D7FBFD5D21936B72001B6209 /* PDFHelper.swift in Sources */,
 				D7FBFD5F21936C08001B6209 /* Resume.swift in Sources */,
+				D7F8CF99219757ED0088A27C /* ResumeTableViewCell.swift in Sources */,
 				D7FBFD5821935387001B6209 /* ResumeListViewController.swift in Sources */,
 				D7F8CF93219746680088A27C /* Color.swift in Sources */,
 				D7F8CF952197481F0088A27C /* SkillData.swift in Sources */,
@@ -229,6 +236,7 @@
 				D7F8CF91219732420088A27C /* ToggleCollectionViewCell.swift in Sources */,
 				D78B62952196174D009C6DF7 /* Skill.swift in Sources */,
 				D78B629C21972C5D009C6DF7 /* SkillsCollectionViewController.swift in Sources */,
+				D7F8CF97219756040088A27C /* ResultsViewController.swift in Sources */,
 				D7FBFD5B21936B57001B6209 /* FileManagerExtensions.swift in Sources */,
 				D78B62972196F2B5009C6DF7 /* ShowResumeViewController.swift in Sources */,
 			);
