@@ -64,18 +64,18 @@ extension SkillsCollectionViewController: UICollectionViewDelegateFlowLayout, UI
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 0)
+        return UIEdgeInsets(top: 8, left: 4, bottom: 8, right: 4)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         switch indexPath.section {
         case 0:
-            let width: CGFloat = self.view.frame.size.width - 16 - 16
-            let height: CGFloat = 60.0
+            let width: CGFloat = self.view.frame.size.width - 16 - 8
+            let height: CGFloat = 76
             return CGSize(width: width, height: height)
         case 1:
-            let width: CGFloat = (self.view.frame.size.width - 16 - 16 - 20) / 2
-            let height: CGFloat = 60.0
+            let width: CGFloat = (self.view.frame.size.width - 16 - 20) / 2
+            let height: CGFloat = 76
             return CGSize(width: width, height: height)
         default:
             fatalError("INCORRECT SECTION INDEX")
