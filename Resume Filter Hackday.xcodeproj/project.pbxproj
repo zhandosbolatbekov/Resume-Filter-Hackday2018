@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C892ACE7F0DBF6F6AAC6DF1 /* Pods_Resume_Filter_Hackday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3C79B14DCC6F9D2713E77B /* Pods_Resume_Filter_Hackday.framework */; };
+		D78B62952196174D009C6DF7 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B62942196174D009C6DF7 /* Skill.swift */; };
+		D78B62972196F2B5009C6DF7 /* ShowResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B62962196F2B5009C6DF7 /* ShowResumeViewController.swift */; };
+		D78B629A219726F7009C6DF7 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78B6299219726F7009C6DF7 /* assets.xcassets */; };
+		D78B629C21972C5D009C6DF7 /* SkillsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B629B21972C5D009C6DF7 /* SkillsCollectionViewController.swift */; };
+		D78B629E21972CCC009C6DF7 /* SkillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B629D21972CCC009C6DF7 /* SkillCollectionViewCell.swift */; };
+		D7F8CF91219732420088A27C /* ToggleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CF90219732420088A27C /* ToggleCollectionViewCell.swift */; };
+		D7F8CF93219746680088A27C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CF92219746680088A27C /* Color.swift */; };
+		D7F8CF952197481F0088A27C /* SkillData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CF942197481F0088A27C /* SkillData.swift */; };
+		D7FBFD4621932366001B6209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBFD4521932366001B6209 /* AppDelegate.swift */; };
+		D7FBFD4B21932366001B6209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FBFD4921932366001B6209 /* Main.storyboard */; };
+		D7FBFD5021932369001B6209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FBFD4E21932369001B6209 /* LaunchScreen.storyboard */; };
+		D7FBFD5821935387001B6209 /* ResumeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBFD5721935387001B6209 /* ResumeListViewController.swift */; };
+		D7FBFD5B21936B57001B6209 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBFD5A21936B57001B6209 /* FileManagerExtensions.swift */; };
+		D7FBFD5D21936B72001B6209 /* PDFHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBFD5C21936B72001B6209 /* PDFHelper.swift */; };
+		D7FBFD5F21936C08001B6209 /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBFD5E21936C08001B6209 /* Resume.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F930CD58C58287C06DF233E /* Pods-Resume Filter Hackday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resume Filter Hackday.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resume Filter Hackday/Pods-Resume Filter Hackday.release.xcconfig"; sourceTree = "<group>"; };
+		AD9CD811A565328744F2EE5E /* Pods-Resume Filter Hackday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resume Filter Hackday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resume Filter Hackday/Pods-Resume Filter Hackday.debug.xcconfig"; sourceTree = "<group>"; };
+		D78B62942196174D009C6DF7 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		D78B62962196F2B5009C6DF7 /* ShowResumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResumeViewController.swift; sourceTree = "<group>"; };
+		D78B6299219726F7009C6DF7 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		D78B629B21972C5D009C6DF7 /* SkillsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsCollectionViewController.swift; sourceTree = "<group>"; };
+		D78B629D21972CCC009C6DF7 /* SkillCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7F8CF90219732420088A27C /* ToggleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7F8CF92219746680088A27C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D7F8CF942197481F0088A27C /* SkillData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillData.swift; sourceTree = "<group>"; };
+		D7FBFD4221932366001B6209 /* Resume Filter Hackday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resume Filter Hackday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FBFD4521932366001B6209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7FBFD4A21932366001B6209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7FBFD4F21932369001B6209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7FBFD5121932369001B6209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FBFD5721935387001B6209 /* ResumeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeListViewController.swift; sourceTree = "<group>"; };
+		D7FBFD5A21936B57001B6209 /* FileManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
+		D7FBFD5C21936B72001B6209 /* PDFHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFHelper.swift; sourceTree = "<group>"; };
+		D7FBFD5E21936C08001B6209 /* Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
+		DC3C79B14DCC6F9D2713E77B /* Pods_Resume_Filter_Hackday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resume_Filter_Hackday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FBFD3F21932366001B6209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C892ACE7F0DBF6F6AAC6DF1 /* Pods_Resume_Filter_Hackday.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CDB306CD7898CFA31103051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3C79B14DCC6F9D2713E77B /* Pods_Resume_Filter_Hackday.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE4AD42111F0CC618EC0A9E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD9CD811A565328744F2EE5E /* Pods-Resume Filter Hackday.debug.xcconfig */,
+				1F930CD58C58287C06DF233E /* Pods-Resume Filter Hackday.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7FBFD3921932366001B6209 = {
+			isa = PBXGroup;
+			children = (
+				D7FBFD4421932366001B6209 /* Resume Filter Hackday */,
+				D7FBFD4321932366001B6209 /* Products */,
+				CE4AD42111F0CC618EC0A9E5 /* Pods */,
+				1CDB306CD7898CFA31103051 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FBFD4321932366001B6209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBFD4221932366001B6209 /* Resume Filter Hackday.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FBFD4421932366001B6209 /* Resume Filter Hackday */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBFD4921932366001B6209 /* Main.storyboard */,
+				D7FBFD5A21936B57001B6209 /* FileManagerExtensions.swift */,
+				D7FBFD5C21936B72001B6209 /* PDFHelper.swift */,
+				D7FBFD5E21936C08001B6209 /* Resume.swift */,
+				D7FBFD5721935387001B6209 /* ResumeListViewController.swift */,
+				D78B629B21972C5D009C6DF7 /* SkillsCollectionViewController.swift */,
+				D7FBFD59219353C5001B6209 /* Supporting files */,
+				D7FBFD4521932366001B6209 /* AppDelegate.swift */,
+				D78B62942196174D009C6DF7 /* Skill.swift */,
+				D78B62962196F2B5009C6DF7 /* ShowResumeViewController.swift */,
+				D78B6299219726F7009C6DF7 /* assets.xcassets */,
+				D78B629D21972CCC009C6DF7 /* SkillCollectionViewCell.swift */,
+				D7F8CF90219732420088A27C /* ToggleCollectionViewCell.swift */,
+				D7F8CF92219746680088A27C /* Color.swift */,
+				D7F8CF942197481F0088A27C /* SkillData.swift */,
+			);
+			path = "Resume Filter Hackday";
+			sourceTree = "<group>";
+		};
+		D7FBFD59219353C5001B6209 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBFD5121932369001B6209 /* Info.plist */,
+				D7FBFD4E21932369001B6209 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7FBFD4121932366001B6209 /* Resume Filter Hackday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FBFD5421932369001B6209 /* Build configuration list for PBXNativeTarget "Resume Filter Hackday" */;
+			buildPhases = (
+				C927958C503F0D2C41B225E3 /* [CP] Check Pods Manifest.lock */,
+				D7FBFD3E21932366001B6209 /* Sources */,
+				D7FBFD3F21932366001B6209 /* Frameworks */,
+				D7FBFD4021932366001B6209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resume Filter Hackday";
+			productName = "Resume Filter Hackday";
+			productReference = D7FBFD4221932366001B6209 /* Resume Filter Hackday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FBFD3A21932366001B6209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zhandos;
+				TargetAttributes = {
+					D7FBFD4121932366001B6209 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D7FBFD3D21932366001B6209 /* Build configuration list for PBXProject "Resume Filter Hackday" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7FBFD3921932366001B6209;
+			productRefGroup = D7FBFD4321932366001B6209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FBFD4121932366001B6209 /* Resume Filter Hackday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7FBFD4021932366001B6209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FBFD5021932369001B6209 /* LaunchScreen.storyboard in Resources */,
+				D7FBFD4B21932366001B6209 /* Main.storyboard in Resources */,
+				D78B629A219726F7009C6DF7 /* assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C927958C503F0D2C41B225E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Resume Filter Hackday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7FBFD3E21932366001B6209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FBFD5D21936B72001B6209 /* PDFHelper.swift in Sources */,
+				D7FBFD5F21936C08001B6209 /* Resume.swift in Sources */,
+				D7FBFD5821935387001B6209 /* ResumeListViewController.swift in Sources */,
+				D7F8CF93219746680088A27C /* Color.swift in Sources */,
+				D7F8CF952197481F0088A27C /* SkillData.swift in Sources */,
+				D7FBFD4621932366001B6209 /* AppDelegate.swift in Sources */,
+				D78B629E21972CCC009C6DF7 /* SkillCollectionViewCell.swift in Sources */,
+				D7F8CF91219732420088A27C /* ToggleCollectionViewCell.swift in Sources */,
+				D78B62952196174D009C6DF7 /* Skill.swift in Sources */,
+				D78B629C21972C5D009C6DF7 /* SkillsCollectionViewController.swift in Sources */,
+				D7FBFD5B21936B57001B6209 /* FileManagerExtensions.swift in Sources */,
+				D78B62972196F2B5009C6DF7 /* ShowResumeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7FBFD4921932366001B6209 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FBFD4A21932366001B6209 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7FBFD4E21932369001B6209 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FBFD4F21932369001B6209 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7FBFD5221932369001B6209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7FBFD5321932369001B6209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7FBFD5521932369001B6209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9CD811A565328744F2EE5E /* Pods-Resume Filter Hackday.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X8EVDXUM3;
+				INFOPLIST_FILE = "Resume Filter Hackday/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhandos.Resume-Filter-Hackday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7FBFD5621932369001B6209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F930CD58C58287C06DF233E /* Pods-Resume Filter Hackday.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X8EVDXUM3;
+				INFOPLIST_FILE = "Resume Filter Hackday/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhandos.Resume-Filter-Hackday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7FBFD3D21932366001B6209 /* Build configuration list for PBXProject "Resume Filter Hackday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FBFD5221932369001B6209 /* Debug */,
+				D7FBFD5321932369001B6209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FBFD5421932369001B6209 /* Build configuration list for PBXNativeTarget "Resume Filter Hackday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FBFD5521932369001B6209 /* Debug */,
+				D7FBFD5621932369001B6209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7FBFD3A21932366001B6209 /* Project object */;
+}
