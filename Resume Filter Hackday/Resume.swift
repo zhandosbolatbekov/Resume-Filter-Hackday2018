@@ -42,6 +42,7 @@ extension Resume {
             for key in skill.keywords {
                 if text.lowercased().range(of: key) != nil {
                     count += 1
+                    break
                 }
             }
         }

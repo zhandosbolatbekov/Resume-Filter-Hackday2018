@@ -27,8 +27,8 @@ class SkillsCollectionViewController: UIViewController {
     
     @IBAction func getResultsButtonPressed(_ sender: UIButton) {
         let resumeListVC = self.storyboard?.instantiateViewController(withIdentifier: "Results List") as! ResultsViewController
-//        let resumeList = Resume.getAllResumes()
-//        resumeListVC.resumeList = resumeList.filter { $0.contains(skills: chosens, combined: combined) }
+        let resumeList = Resume.getAllResumes()
+        resumeListVC.resumeList = resumeList.filter { $0.contains(skills: chosens, combined: combined) }
         self.navigationController?.pushViewController(resumeListVC, animated: true)
     }
 }

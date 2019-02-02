@@ -12,7 +12,7 @@ class ResultsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var resumeList = Resume.getAllResumes()
+    var resumeList = [Resume]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
